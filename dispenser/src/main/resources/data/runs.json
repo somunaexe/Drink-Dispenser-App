@@ -1,0 +1,82 @@
+[
+  {
+  "id": 1,
+  "title": "Morning Run",
+  "startedOn": "2022-12-12T06:00:12.49766",
+  "completedOn": "2022-12-12T06:30:12.497678",
+  "miles": 3,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 2,
+  "title": "Evening Jog",
+  "startedOn": "2022-12-13T18:00:12.49766",
+  "completedOn": "2022-12-13T18:45:12.497678",
+  "miles": 4,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 3,
+  "title": "Friday Afternoon Run",
+  "startedOn": "2022-12-12T15:00:12.49766",
+  "completedOn": "2022-12-12T15:20:12.497678",
+  "miles": 2,
+  "location": "INDOOR"
+  },
+  {
+  "id": 4,
+  "title": "Saturday Morning Run",
+  "startedOn": "2022-12-14T07:00:12.49766",
+  "completedOn": "2022-12-14T07:25:12.497678",
+  "miles": 3.5,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 5,
+  "title": "Night Run",
+  "startedOn": "2022-12-15T21:00:12.49766",
+  "completedOn": "2022-12-15T21:20:12.497678",
+  "miles": 2.5,
+  "location": "INDOOR"
+  },
+  {
+  "id": 6,
+  "title": "Lunchtime Jog",
+  "startedOn": "2022-12-16T12:00:12.49766",
+  "completedOn": "2022-12-16T12:30:12.497678",
+  "miles": 3,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 7,
+  "title": "Sunrise Run",
+  "startedOn": "2022-12-17T05:30:12.49766",
+  "completedOn": "2022-12-17T05:55:12.497678",
+  "miles": 3.2,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 8,
+  "title": "Midday Sprint",
+  "startedOn": "2022-12-18T13:00:12.49766",
+  "completedOn": "2022-12-18T13:15:12.497678",
+  "miles": 2,
+  "location": "INDOOR"
+  },
+  {
+  "id": 9,
+  "title": "Weekend Walk",
+  "startedOn": "2022-12-19T10:00:12.49766",
+  "completedOn": "2022-12-19T10:50:12.497678",
+  "miles": 5,
+  "location": "OUTDOOR"
+  },
+  {
+  "id": 10,
+  "title": "Evening Treadmill Run",
+  "startedOn": "2022-12-20T19:00:12.49766",
+  "completedOn": "2022-12-20T19:30:12.497678",
+  "miles": 3,
+  "location": "INDOOR"
+  }
+]
