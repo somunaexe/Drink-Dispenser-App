@@ -2,6 +2,7 @@ package io.github.somunaexe.dispenser;
 
 import io.github.somunaexe.dispenser.run.Location;
 import io.github.somunaexe.dispenser.run.Run;
+import io.github.somunaexe.dispenser.run.RunRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -23,13 +24,13 @@ public class DispenserApplication {
 
 	}
 
-	@Bean
-	CommandLineRunner runner() {
-		return args -> {
-			Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plusHours(1), 4, Location.INDOOR);
-            log.info("Run: {}", run);
-		};
-	}
+//	@Bean
+//	CommandLineRunner runner(RunRepository runRepo) {
+//		return args -> {
+//			Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plusHours(1), 4, Location.INDOOR);
+//            runRepo.create(run);
+//		};
+//	}
 
 
 }

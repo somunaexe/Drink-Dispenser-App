@@ -38,18 +38,21 @@ public class RunController {
         return run.get();
     }
 
+    //create a run record
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("")
     void create(@Valid @RequestBody Run run) {
         runRepo.create(run);
     }
 
+    //update a run record
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping("/{id}")
     void update(@RequestBody Run run, @PathVariable Integer id) {
         runRepo.update(run, id);
     }
 
+    //delete a run record
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{id}")
     void delete(@PathVariable Integer id) {
