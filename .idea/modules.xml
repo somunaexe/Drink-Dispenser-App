@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dispenser.iml" filepath="$PROJECT_DIR$/.idea/dispenser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot-Dispenser-App.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot-Dispenser-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dispenser/dispenser.iml" filepath="$PROJECT_DIR$/dispenser/dispenser.iml" />
     </modules>
   </component>
 </project>

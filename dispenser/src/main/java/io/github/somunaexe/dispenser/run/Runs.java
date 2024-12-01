@@ -1,4 +1,6 @@
 package io.github.somunaexe.dispenser.run;
 
-public record Runs() {
+import java.util.List;
+
+public record Runs(List<Run> runs) {
 }
